@@ -1,5 +1,5 @@
 CC := gcc
-DEPS := src/main.c include/glad/glad.c src/utils.c src/shader.c
+DEPS := src/main.c include/glad/glad.c src/utils.c src/shader.c src/globs.c
 LIBS := -lglfw -lGL -lX11 -lpthread -lXrandr -lXi -ldl
 TARGET := bin/main
 FLAGS := -O2 -std=c23
