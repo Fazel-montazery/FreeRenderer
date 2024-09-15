@@ -16,4 +16,10 @@ typedef enum {
 	ERROR_UNKNOWN
 } State;
 
+typedef enum {
+	OPENGL = 0,
+	VULKAN,
+	SOFTWARE
+} RenderBackend;
+
 #endif // STATES_H
